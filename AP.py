@@ -9,6 +9,7 @@ def perimeter_rect(l, w):
 
 
 def area_rect(l, b):
+
     Area = l * b
     return Area
 
@@ -22,7 +23,7 @@ if __name__=="__main__":
         choice = int(input("Enter your choice from the above Menu :"))
 
         if choice == 1:
-            side = int(input("Enter the num for finding Area of square :"))
+            side = int(input("Enter the number for finding Area of square :"))
             squarearea = area_square(side)
             print(squarearea)
 
@@ -42,4 +43,4 @@ if __name__=="__main__":
             break
 
         else:
-            print("oops you have entered INVALID choice...try again by choosing valid option!")
+            print("invalid")
